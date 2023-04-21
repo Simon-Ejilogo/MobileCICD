@@ -1,8 +1,8 @@
 # AndroidCICD
 
-# STEPS TO IMPLEMENT THIS PROJECTS.
+# STEPS TO IMPLEMENT THIS PROJECT.
 
-SET UP A KUBENETES CLUSTER
+**SET UP A KUBENETES CLUSTER**
 
 For setting up Kubernetes cluster, we will do the following:
 •	Set up infrastructure (provision nodes, install container runtime)
@@ -15,7 +15,7 @@ Refer: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/cre
 
 
 
-|# SETUP JENKINS ON KUBERNETES
+**SETUP JENKINS ON KUBERNETES**
 
 For setting up a Jenkins Cluster on Kubernetes, we will do the following:
 •	Create a Namespace
@@ -26,7 +26,7 @@ For setting up a Jenkins Cluster on Kubernetes, we will do the following:
 Refer https://devopscube.com/setup-jenkins-on-kubernetes-cluster/ for step by step process to use these manifests.
 
 
-# SETUP SONARQUBE ON KUBERNETES CLUSTER
+**SETUP SONARQUBE ON KUBERNETES CLUSTER**
 
 Steps involved in deploying SonarQube on a Kubernetes cluster:
 
@@ -39,13 +39,13 @@ Steps involved in deploying SonarQube on a Kubernetes cluster:
 •	Expose the SonarQube service with Ingress or LoadBalancer.
 Refer: https://docs.sonarqube.org/9.8/setup-and-upgrade/deploy-on-kubernetes/deploy-a-sonarqube-cluster-on-kubernetes/
 
-ARCHICTECTURE
+   ** ARCHICTECTURE**
 
 
 ![image](https://user-images.githubusercontent.com/51275106/233449355-7af5cff2-4309-4479-8979-9a475db7f825.png)
 
 
-CONNECT JENKINS TO GITHUB FOR CICD
+**CONNECT JENKINS TO GITHUB FOR CICD**
 
 •	Create a repository for sample code
 https://github.com/Simon-Ejilogo/KotlinDagger.git
@@ -72,7 +72,7 @@ https://github.com/Simon-Ejilogo/KotlinDagger.git
  ![image](https://user-images.githubusercontent.com/51275106/233449597-6ee7c4df-9d71-4a95-b019-64b656f28011.png)
 
 
-CONNECT JENKINS TO APP CENTER AND DEPLOY BUILD .APK
+**CONNECT JENKINS TO APP CENTER AND DEPLOY BUILD .APK**
 
 •	Create an account on App Center: If you don't have an account already, create one by visiting the App Center website and signing up.
 
